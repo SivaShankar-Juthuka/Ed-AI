@@ -1,0 +1,69 @@
+{
+    "topic_1": {
+        "questions": [
+            {
+                "question": "What is the time complexity of finding an element in a sorted array using binary search?",
+                "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n^2)"],
+                "answer": "B. O(log n)",
+                "explanation": "Binary search repeatedly divides the search space in half, resulting in logarithmic time complexity.",
+                "incorrect_explanation": {
+                    "A": "O(1) is incorrect because binary search divides the space repeatedly.",
+                    "C": "O(n) is for linear search, not binary search.",
+                    "D": "O(n^2) is higher than expected for binary search."
+                }
+            },
+            {
+                "question": "What is the time complexity of bubble sort?",
+                "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n^2)"],
+                "answer": "D. O(n^2)",
+                "explanation": "Bubble sort compares and swaps adjacent elements repeatedly, leading to quadratic time complexity.",
+                "incorrect_explanation": {
+                    "A": "Bubble sort involves multiple comparisons and cannot be done in constant time.",
+                    "B": "O(log n) is a lower complexity, incorrect for bubble sort.",
+                    "C": "O(n) is too low for bubble sort."
+                }
+            }
+        ]
+    },
+    "topic_2": {
+        "questions": [
+            {
+                "question": "What is the time complexity of merge sort?",
+                "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n log n)"],
+                "answer": "D. O(n log n)",
+                "explanation": "Merge sort divides the array into halves and sorts recursively, giving O(n log n) time complexity.",
+                "incorrect_explanation": {
+                    "A": "Cannot be constant time since it divides and merges.",
+                    "B": "O(log n) is too low for merge sort.",
+                    "C": "O(n) is too low for merge sort."
+                }
+            },
+            {
+                "question": "What is the time complexity of finding the minimum element in an unsorted array?",
+                "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n^2)"],
+                "answer": "C. O(n)",
+                "explanation": "You need to scan the entire array, which results in linear time complexity.",
+                "incorrect_explanation": {
+                    "A": "Constant time is not possible since you must scan the array.",
+                    "B": "O(log n) would be for searching in a sorted array.",
+                    "D": "O(n^2) is too high for finding the minimum."
+                }
+            }
+        ]
+    },
+    "topic_3": {
+        "questions": [
+            {
+                "question": "What is the time complexity of inserting an element at the end of a dynamic array (assuming sufficient capacity)?",
+                "options": ["A. O(1)", "B. O(n)", "C. O(log n)", "D. O(n^2)"],
+                "answer": "A. O(1)",
+                "explanation": "Inserting at the end of a dynamic array is constant-time if there's capacity.",
+                "incorrect_explanation": {
+                    "B": "Shifting elements or resizing would require O(n).",
+                    "C": "Binary search complexity doesn't apply here.",
+                    "D": "O(n^2) is unrelated to this operation."
+                }
+            }
+        ]
+    }
+}
