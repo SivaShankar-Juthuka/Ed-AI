@@ -1,0 +1,7 @@
+.env
+venv/
+temp_code.cpp
+temp_code.py
+mcqs(easy).docx
+mcqs(medium).docx
+mcqs(hard).docx
