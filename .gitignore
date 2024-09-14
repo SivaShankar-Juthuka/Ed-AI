@@ -3,5 +3,6 @@ venv/
 mcqs(easy).docx
 mcqs(medium).docx
 mcqs(hard).docx
+mcqsformat.txt
 temp_code.cpp
 temp_code.py

@@ -1,6 +1,5 @@
-test1_data = {
-    "topic_1": {
-        "questions": [
+{
+  "questions": [
             {
                 "question": "What is the time complexity of finding an element in a sorted array using binary search?",
                 "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n^2)"],
@@ -22,11 +21,7 @@ test1_data = {
                     "B": "O(log n) is a lower complexity, incorrect for bubble sort.",
                     "C": "O(n) is too low for bubble sort."
                 }
-            }
-        ]
-    },
-    "topic_2": {
-        "questions": [
+            },
             {
                 "question": "What is the time complexity of merge sort?",
                 "options": ["A. O(1)", "B. O(log n)", "C. O(n)", "D. O(n log n)"],
@@ -48,11 +43,7 @@ test1_data = {
                     "B": "O(log n) would be for searching in a sorted array.",
                     "D": "O(n^2) is too high for finding the minimum."
                 }
-            }
-        ]
-    },
-    "topic_3": {
-        "questions": [
+            },
             {
                 "question": "What is the time complexity of inserting an element at the end of a dynamic array (assuming sufficient capacity)?",
                 "options": ["A. O(1)", "B. O(n)", "C. O(log n)", "D. O(n^2)"],
@@ -65,5 +56,4 @@ test1_data = {
                 }
             }
         ]
-    }
 }
